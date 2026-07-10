@@ -6,6 +6,6 @@ def add(a, b):
 
 def subtract(a, b):
     """Subtracts two numbers"""
-    return a + b
+    return a - b
 
 app = SimpleNamespace(add=add, subtract=subtract)
